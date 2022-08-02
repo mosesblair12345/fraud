@@ -1,0 +1,117 @@
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat-Bold';
+}
+p{
+  font-family: 'Ubuntu';
+}
+.title-colored-section{
+  background-color: #FFF89C;
+}
+.container-fluid{
+  padding: 3% 8%;
+}
+.navbar{
+  padding-bottom: 0.5rem;
+}
+.navbar-brand{
+  font-family: 'ubuntu';
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 10px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Bold';
+}
+.btn{
+  padding: 10px;
+}
+.title{
+  padding: 4rem 0;
+}
+.title-heading{
+  font-size: 3.7rem;
+  padding-top: 4.5rem;
+  padding-bottom: 0.5rem;
+}
+.title-paragraph{
+  font-size: 1.1rem;
+  padding: 1.1rem 0;
+}
+.carousel-img{
+  width: 11%;
+  border-radius: 100%;
+  margin:20px;
+}
+.fa-solid{
+  font-size: 3rem;
+  margin: 2.5rem 0;
+  color: #B93160;
+}
+.features-title{
+  font-size: 1.7rem;
+}
+.features-heading{
+  font-size: 3.0rem;
+  padding-bottom: 2rem;
+}
+.feature-box{
+  padding: 3%;
+}
+.container-fluid-all{
+  padding: 7% 15%;
+}
+.container-fluid-testimonials{
+  padding: 2% 15%;
+}
+.testimonials-heading{
+  padding-top: 9%;
+}
+.get-started{
+  padding-top: 100px;
+  text-align: left;
+}
+.started-heading{
+  padding: 5% 0;
+}
+.footer-img{
+  font-size: 1.2rem;
+  padding: 3% 2%;
+  color: #000;
+}
+.footer-img:hover{
+  color: #D75281;
+}
+.fa-solid:hover{
+  animation: bounce 1.5s ease-in-out infinite;
+  color: #D75281;
+}
+.fa-brands:hover{
+  animation: bounce 1.5s ease-in-out infinite;
+  color: #D75281;
+}
+@keyframes bounce {
+0%,
+20%,
+60%,
+100% {
+  transform: translateY(0);
+}
+40% {
+  transform: translateY(-30px);
+}
+80% {
+  transform: translateY(-20px);
+}
+}
+@media(max-width: 800px){
+  .carousel-item{
+    text-align: left;
+  }
+}

@@ -1,0 +1,24 @@
+p{
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: #E8AA42;
+
+}
+.container-fluid{
+  padding: 3% 11%;
+}
+.welcome{
+  text-align: center;
+  padding-bottom: 5%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4rem;
+  color: #E8AA42;
+}
+.btn{
+  padding: 10px 40px;
+}
+.signup{
+  padding: 20px 0;
+}
